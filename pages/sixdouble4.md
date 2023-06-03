@@ -15,7 +15,7 @@ layout: plain
   - [Notes](/assets/pdf/L02.worksheet.catherine.2021.pdf)
 - L3 - Compiling Code and Implementing Procedures
   - [Notes](/assets/pdf/L03.worksheet.catherine.pdf)
-  - [Callee vs. Caller registers?](/pdf/caller_callee.pdf)
+  - [Callee vs. Caller registers?](/assets/pdf/caller_callee.pdf)
 - L4 - Procedures, Stacks, and MMIO
   - [Notes](/assets/pdf/L04.worksheet.catherine.2021.pdf)
 - L5 - The Digital Abstraction

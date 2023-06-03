@@ -3,11 +3,11 @@ title: Links
 layout: plain
 ---
 
-# [Blog](/blog)
+# [Blog](/blog/)
 
 I don't have too many things here but I will hopefully write more.
 
-# [Classes](/classes)
+# [Classes](/classes/)
 
 Classes I've taken at MIT and some notes
 
