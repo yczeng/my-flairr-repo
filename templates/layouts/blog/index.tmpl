@@ -5,20 +5,22 @@
 {{ block "main" . }}
 <main>
     <div class="about">
+        <div class="about__title">
+            <h1>{{ index .Meta "title" }}</h1>
+        </div>
+
         <div class="about__content">
             {{ .HTML }}
         </div>
     </div>
 
-
-    <ul>
+    <ul class="blog">
         {{ $collection := getCollection .Site "blog" }}
         {{ range $collection.Pages }}
-        <a href="/{{ .Path }}">
-            <li>{{ index .Meta "title" }}</li>
-        </a>
+        {{ if not (index .Meta "hidden") }}
+        <li><a href="/{{ .Path }}">{{ index .Meta "date"}} - {{ index .Meta "title" }}</a></li>
+        {{ end }}
         {{ end }}
     </ul>
-
 </main>
 {{ end }}

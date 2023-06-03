@@ -9,7 +9,6 @@ Clurr and Neil visited and we went to a fun restaurant in Cambridge called dali.
 
 Dali gives out a free postcard to customers that is aesthetic. So I drew Clurr and Neil and taped it on the postcard because I thought it would be cool.
 
-<img src="/assets/art/clurrneil/clurrneil.jpeg">
 <img src="/assets/art/clurrneil/postcard.jpeg">
 
 Clurr also sent a postcard back! Which was really exciting to get in the mail. Very cool!!!

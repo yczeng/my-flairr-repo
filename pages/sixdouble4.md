@@ -59,7 +59,7 @@ layout: plain
 
 # Other
 
-- [Lab6 IMMJ](/pdf/lab6IMMJ.pdf)
+- [Lab6 IMMJ](/assets/pdf/lab6IMMJ.pdf)
 
 ---
 

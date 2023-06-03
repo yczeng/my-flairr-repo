@@ -5,6 +5,10 @@
 {{ block "main" . }}
 <main>
     <div class="about">
+        <div class="about__title">
+            <h1>{{ index .Meta "title" }}</h1>
+        </div>
+
         <div class="about__content">
             {{ .HTML }}
         </div>
@@ -14,7 +18,9 @@
         <ul>
             {{ $collection := getCollection .Site "art" }}
             {{ range $collection.Pages }}
-            <a href="/{{ .Path }}"> <img src="{{ index .Meta "imgSrc" }}" width="45%" /></a>
+                {{ if not (index .Meta "hidden") }}
+                <a href="/{{ .Path }}"> <img src="{{ index .Meta "imgSrc" }}" width="45%" /></a>
+                {{ end }}
             {{ end }}
         </ul>
     </div>

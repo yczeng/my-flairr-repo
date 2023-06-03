@@ -1,6 +1,7 @@
 ---
 title: Music
 layout: plain
+showTitle: true
 ---
 
 I've been playing piano for a long time (since I was 6). I used to play almost exclusively classical music and did a bunch of competitions because I liked feeling like I was good at piano. See [here](https://youtube.com/catherinezng) for my Youtube channel.
@@ -9,7 +10,7 @@ Later at MIT, I continued playing in trios for a couple years but then I had an 
 
 So my friends and I started jamming in a band together. And that was... extremely fun haha (some of my absolute favorite MIT memories).
 
-# Brief background:
+# Classical Music:
 
 - Studied with Ruo Huang Balko, [Roberta Rust](http://www.robertarust.com/) from Lynn Conservatory, and chamber music with [David Deveau](https://mta.mit.edu/person/david-deveau) at MIT.
 - Graduated from Dreyfoos SOA and BAK SOA (performing arts schools) as a Piano Major.

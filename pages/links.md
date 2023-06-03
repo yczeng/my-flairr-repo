@@ -19,10 +19,6 @@ Things I want to do
 
 Notes from teaching 6.004 Computer Architecture
 
-# [Paper Reviews](/paperreview)
-
-Some paper reviews [not updated]
-
 <hr />
 
 # Other

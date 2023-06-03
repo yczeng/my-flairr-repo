@@ -1,6 +1,6 @@
 ---
 title: Living in a Basement in San Francisco
-date: 2019-01-05 19:00:00 -05:00
+date: 2019-01-05
 category: stories
 layout: blog/blog
 ---

@@ -10,5 +10,3 @@ I drew this woman. I was kinda random. I don't really know / remember what the i
 Maybe this is an empowered career woman or something idk.
 
 <img src="/assets/art/woman/girl.jpg">
-<img src="/assets/art/woman/frame.jpg">
-<img src="/assets/art/woman/watercolor.jpg">

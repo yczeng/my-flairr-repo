@@ -8,11 +8,11 @@ Here are some classes that I've taken at MIT. I graduated in 3.5 years.
 # Math / Physics
 - 18.02 Multivariable Calculus
 - 18.03 Differential Equations (+): [Lectures 1-14](/assets/classes/1803/1803_lecture_notes_part_1.pdf), [Lectures 15-29](/assets/classes/1803/1803_lecture_notes_part_2.pdf), [Lectures 30-end](/assets/classes/1803/1803_lecture_notes_part_3.pdf), [Final Review*](/assets/classes/1803/1803_final_review.pdf)
-- 18.354 Nonlinear Dynamics: Continuum Systems (+): [Proposal](/uploads/projects/Project_Proposal.pdf), [Project](/uploads/projects/Final_Project_Catherine_Zeng.pdf)
+- 18.354 Nonlinear Dynamics: Continuum Systems (+): [Proposal](/assets/projects/nonlinear-dynamics/Project_Proposal.pdf), [Project](/assets/projects/nonlinear-dynamics/Final_Project_Catherine_Zeng.pdf)
 - 18.062 Mathematics for Computer Science  (Discrete Math)
 - 8.01 Mechanics (+)
 - 8.02 Electricity and Magnetism (+)
-- 8.03 Waves and Vibrations (%): [Psets](/classes/803/)
+- 8.03 Waves and Vibrations (%): [Pset1](/assets/classes/803/psets/803pset1.pdf), [Pset2](/assets/classes/803/psets/803pset2.pdf), [Pset3](/assets/classes/803/psets/803pset3.pdf), [Pset4](/assets/classes/803/psets/803pset4.pdf)
 - 8.04 Quantum Physics I
 - 8.05 Quantum Physics II
 - 8.06 Quantum Physics III (Dropped it after COVID)

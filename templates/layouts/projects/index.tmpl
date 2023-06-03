@@ -4,7 +4,12 @@
 
 {{ block "main" . }}
 <main>
+
   <div class="about">
+    <div class="about__title">
+      <h1>{{ index .Meta "title" }}</h1>
+    </div>
+
     <div class="about__content">
       {{ .HTML }}
     </div>

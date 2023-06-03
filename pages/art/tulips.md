@@ -2,6 +2,7 @@
 title: Tulips
 date: 2023-04-06 19:00:00 -05:00
 layout: art/art
+hidden: true
 imgSrc: /assets/art/tulips/image.jpg
 ---
 
