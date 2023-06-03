@@ -1,0 +1,13 @@
+{{ block "meta" . }}
+  <title>{{ .Site.Title }} — {{ index .Meta "title" }}</title>
+{{ end }}
+
+{{ block "main" . }}
+  <main>
+    <div class="about">
+      <div class="about__content">
+        {{ .HTML }}
+      </div>
+    </div>
+  </main>
+{{ end }}

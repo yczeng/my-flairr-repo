@@ -1,0 +1,26 @@
+domain: cat
+title: Cat Zeng
+description: My name is Cat, and I am a student at MIT studying Electrical Engineering & Computer Science, and Physics, with a concentration in Music. I am interested in understanding how things work and weird things.
+image: /img/og-image.jpg
+opengraph:
+  Title: Cat Zeng
+  Description: Cat's personal website.
+  Image: /img/og-image.jpg
+  Url: https://czeng.org
+pins:
+  - text: About
+    path: /
+  - text: Projects
+    path: /projects/
+  - text: Music
+    path: /music/
+  - text: Art
+    path: /art/
+  - text: Links
+    path: /links
+env:
+  timezone: America/New_York
+ignore:
+  - '**/.DS_Store'
+  - .DS_Store
+  - .git

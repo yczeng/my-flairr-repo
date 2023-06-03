@@ -1,0 +1,47 @@
+{{ define "default" }}
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      {{ block "meta" . }}
+        <title>{{ .Site.Title }}</title>
+        <meta name="description" content="{{ .Site.Description }}" />
+      {{ end }}
+
+      {{ block "opengraph" . }}
+        <meta property="og:title" content="{{ .Site.Opengraph.Title }}" />
+        <meta property="og:description" content="{{ .Site.Opengraph.Description }}" />
+        <meta property="og:url" content="{{ .Site.Opengraph.Url }}" />
+        <meta property="og:image" content="{{ .Site.Opengraph.Image }}" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+      {{ end }}
+
+      {{ block "css" . }}
+        <link rel="stylesheet" type="text/css" href="/css/_reset.css" />
+        <link rel="stylesheet" type="text/css" href="/css/_variables.css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+      {{ end }}
+
+      {{ block "fonts" . }}
+        <link
+          href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Mono"
+          rel="stylesheet"
+        />
+      {{ end }}
+
+      {{ block "js" . }}
+      {{ end }}
+    </head>
+
+    <body>
+      {{ template "header" . }}
+      <div class="wrapper">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
+    </body>
+  </html>
+{{ end }}

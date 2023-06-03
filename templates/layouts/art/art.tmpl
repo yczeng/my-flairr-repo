@@ -1,0 +1,19 @@
+{{ if index .Meta "title" }}
+{{ block "meta" . }}
+<title>{{ .Site.Title }} — {{ index .Meta "title" }}</title>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<div class="post">
+    <div class="post__title">
+        <h1>{{ index .Meta "title" }}</h1>
+    </div>
+    <div class="post__description" ?>
+        {{ index .Meta "description" }}
+    </div>
+    <div class="post__content" ?>
+        {{ .HTML }}
+    </div>
+</div>
+{{ end }}
