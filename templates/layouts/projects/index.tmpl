@@ -1,22 +1,22 @@
 {{ block "meta" . }}
-  <title>{{ .Site.Title }} — {{ index .Meta "title" }}</title>
+<title>{{ .Site.Title }} — {{ index .Meta "title" }}</title>
 {{ end }}
 
 {{ block "main" . }}
-  <main>
-    <div class="about">
-      <div class="about__content">
-        {{ .HTML }}
-      </div>
+<main>
+  <div class="about">
+    <div class="about__content">
+      {{ .HTML }}
     </div>
+  </div>
 
-    <div class="art">
-      <ul>
-        {{ $collection := getCollection .Site "projects" }}
-        {{ range $collection.Pages }}
-          <a href="/{{ .Path }}"> <img src="{{ index .Meta "imgSrc" }}" width="45%" /></a>
-        {{ end }}
-      </ul>
-    </div>
-  </main>
+  <div class="art">
+    <ul>
+      {{ $collection := getCollection .Site "projects" }}
+      {{ range $collection.Pages }}
+      <a href="/{{ .Path }}"> <img src="{{ index .Meta "imgSrc" }}" width="45%" /></a>
+      {{ end }}
+    </ul>
+  </div>
+</main>
 {{ end }}

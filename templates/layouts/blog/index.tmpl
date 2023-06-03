@@ -1,0 +1,24 @@
+{{ block "meta" . }}
+<title>{{ .Site.Title }} — {{ index .Meta "title" }}</title>
+{{ end }}
+
+{{ block "main" . }}
+<main>
+    <div class="about">
+        <div class="about__content">
+            {{ .HTML }}
+        </div>
+    </div>
+
+
+    <ul>
+        {{ $collection := getCollection .Site "blog" }}
+        {{ range $collection.Pages }}
+        <a href="/{{ .Path }}">
+            <li>{{ index .Meta "title" }}</li>
+        </a>
+        {{ end }}
+    </ul>
+
+</main>
+{{ end }}

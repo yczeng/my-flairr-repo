@@ -3,7 +3,6 @@ title: Music Room
 date: 2023-04-06 19:00:00 -05:00
 layout: art/art
 imgSrc: /assets/art/anisseb/music.png
-
 ---
 
 I painted this for my friends Anis & Seb since they like playing music together:

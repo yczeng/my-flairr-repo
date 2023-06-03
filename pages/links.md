@@ -3,9 +3,9 @@ title: Links
 layout: plain
 ---
 
-# [Bad Essays](/blog)
+# [Blog](/blog)
 
-Turns out I didn't write many
+I don't have too many things here but I will hopefully write more.
 
 # [Classes](/classes)
 

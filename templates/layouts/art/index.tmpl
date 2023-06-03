@@ -14,7 +14,7 @@
         <ul>
             {{ $collection := getCollection .Site "art" }}
             {{ range $collection.Pages }}
-            <a href="/{{ .Path }}"> <img src="{{ index .Meta " imgSrc" }}" width="45%" /></a>
+            <a href="/{{ .Path }}"> <img src="{{ index .Meta "imgSrc" }}" width="45%" /></a>
             {{ end }}
         </ul>
     </div>
