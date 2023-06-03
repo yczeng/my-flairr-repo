@@ -16,8 +16,9 @@ Zack thought it was hilarious so he dragged me into it, and we made this mechani
 
 We casted the dildo out of silicon, and used syringes to add pressure to soft-actuate the dildo.
 
-Here's the [full system architecture](full-system-architecture.pdf):
+Here's the [full system architecture](/assets/projects/dildo/full-system-architecture.pdf):
 <a href="/assets/projects/dildo/full-system-architecture.pdf"><img src="/assets/projects/dildo/dildo.png" style="transform: rotate(-90deg);"></a>
 
-Here are some [ipad design notes](ipad-design-notes-jan-3rd.pdf) related to how the syringes actuate the dildo:
-<a href="/assets/projects/dildo/ipad-design-notes-jan-3rd.pdf"><img src="/assets/projects/dildo/design_notes.png"></a>
+Here are some [ipad design notes](/assets/projects/dildo/ipad-design-notes-jan-3rd.pdf) related to how the syringes actuate the dildo:
+
+[![design-notes](/assets/projects/dildo/design_notes.png)](/assets/projects/dildo/ipad-design-notes-jan-3rd.pdf)

@@ -21,9 +21,9 @@ We painted my door with "Sus Lord" and Qbert after painting it with a black coat
 
 <img src="/assets/projects/loft/door.jpeg" width="100%">
 
-Last year we also painted Toby, the rainbow sloth. For more information about Toby, click [here](/arts/2019-04-13-sloth).
+Last year we also painted Toby, the rainbow sloth. For more information about Toby, click [here](/art/sloth).
 
-<img src="/uploads/arts/sloth.jpg" width="100%">
+<img src="/assets/art/sloth/sloth2.jpg" width="100%">
 
 # The process
 

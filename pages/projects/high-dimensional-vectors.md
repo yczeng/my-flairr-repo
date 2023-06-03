@@ -6,11 +6,9 @@ description: Hierarchical Semantic Composition Using High Dimensional Vectors an
 imgSrc: /assets/projects/high-dimensional-vectors/highdimensionalvectors.png
 ---
 
-The [Poster](CULC13_Poster.pdf), [Code](https://github.com/yczeng/semantic-composition).
+The [Poster](/assets/projects/high-dimensional-vectors/CULC13_Poster.pdf), [Code](https://github.com/yczeng/semantic-composition).
 
 I was very excited about high dimensional vectors and the math properties that emerge when you have a lot of dimensions after reading this book called <i>Sparse Distributed Memory</i> by Pentti Kanerva.
-
-<img src="https://m.media-amazon.com/images/P/0262514699.01._SCLZZZZZZZ_SX500_.jpg"/>
 
 So I tried to apply this to language to see if it could successfully retrieve analogies.
 
